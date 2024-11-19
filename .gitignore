@@ -1,11 +1,23 @@
 # Dependencies
 node_modules/
 package-lock.json
+yarn.lock
 
 # Environment files
 .env
 .env.*
 !.env.example
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Hardhat & Typechain files
+cache/
+artifacts/
+typechain/
+typechain-types/
 
 # Compiled contracts
 /contracts/**/*.json
@@ -15,12 +27,13 @@ package-lock.json
 /devchain/geth
 /chaindata/
 
-# Coverage directory used by tools like istanbul
+# Coverage & test files
 coverage/
 coverage.json
 coverageEnv/
+.nyc_output/
 
-# Logs
+# Logs & debug files
 logs
 *.log
 npm-debug.log*
@@ -48,31 +61,43 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+*~
 
-# Mnemonic phrases and private keys
+# Security & private files
 .secret
 mnemonic.txt
 private-keys.txt
 *.pem
 *.key
 
-# IPFS files
+# Blockchain specific
+.openzeppelin/
+.infura/
 .ipfs/
 
-# Pinata configuration
-pinata-config.json
-
-# NFT related
+# NFT & assets
 metadata/
 assets/
 generated/
+pinata-config.json
 
-# Gas reporter results
+# Build & production files
+/build
+/dist
+/deployments
+
+# Gas & performance
 gas-report.txt
+gasReporterOutput.json
+.optimizer-artifacts
 
-# Hardhat files
-cache/
-artifacts/
-
-# Misc
+# Documentation & misc
+docs/
+*.bak
+verification.json
+snapshot/
+cache-fork/
+merkle/
+tenderly.yaml
+slither.db
 .node-xmlhttprequest-*
