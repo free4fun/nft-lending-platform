@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Compiled contracts
+/contracts/**/*.json
+
+# Development chain data
+/devchain/data
+/devchain/geth
+/chaindata/
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+coverageEnv/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Mnemonic phrases and private keys
+.secret
+mnemonic.txt
+private-keys.txt
+*.pem
+*.key
+
+# IPFS files
+.ipfs/
+
+# Pinata configuration
+pinata-config.json
+
+# NFT related
+metadata/
+assets/
+generated/
+
+# Gas reporter results
+gas-report.txt
+
+# Hardhat files
+cache/
+artifacts/
+
+# Misc
+.node-xmlhttprequest-*
