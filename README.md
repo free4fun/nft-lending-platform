@@ -114,9 +114,8 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 <div align="center">
 
-**Made with ❤️ by the NFT Lending Team**
+**Made with ❤️ by free4fun**
 
-[Website](https://example.com) · [Twitter](https://twitter.com) · [Discord](https://discord.gg)
+[Website](https://www.mauricio.com.es) · [Twitter](https://twitter.com/fr334fun) · [Discord](https://discordapp.com/users/free4fun)
 
 </div>
->>>>>>> dad09e3 (README.md)
