@@ -3,11 +3,13 @@
 <div align="center">
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.19-brightgreen)](https://docs.soliditylang.org/)
-[![Hardhat](https://img.shields.io/badge/Hardhat-2.17.0-yellow)](https://hardhat.org/)
+[![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.28-brightgreen)](https://docs.soliditylang.org/)
+[![Hardhat](https://img.shields.io/badge/Hardhat-2.19.2-yellow)](https://hardhat.org/)
 
 *Transform your NFTs into working capital*
 </div>
+
+!!!THIS IS A WIP!!!
 
 ## 🚀 Quick Start
 
