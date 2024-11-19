@@ -2,15 +2,11 @@
 pragma solidity ^0.8.26;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-//import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-//import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract PoemBookNFT is ERC721, Ownable {
-    constructor() ERC721("PoemBookNFT", "POEM") Ownable(msg.sender) {}
-}
-
-/*contract PoemBookNFT is ERC721URIStorage, ReentrancyGuard, Ownable {
+contract PoemBookNFT is ERC721URIStorage, ReentrancyGuard, Ownable {
     
 
     // Simple counter for token ids using uint256
@@ -110,7 +106,7 @@ contract PoemBookNFT is ERC721, Ownable {
         emit LoanEnded(tokenId, loan.borrower);
     }
 
-    function setPlatformWallet(address _wallet) public onlyOwner {
+    function setplatformWallet(address _wallet) public onlyOwner {
         platformWallet = _wallet;
     }
 
@@ -126,4 +122,4 @@ contract PoemBookNFT is ERC721, Ownable {
     function getUserLoans(address user) public view returns (uint256[] memory) {
         return userLoans[user];
     }
-}*/
+}
